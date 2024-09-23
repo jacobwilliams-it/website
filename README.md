@@ -18,9 +18,3 @@ The website showcases Jacob's professional background, experience, skills, and c
 - HTML
 - CSS
 
-## How to Run Locally
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name

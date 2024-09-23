@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jacob Williams - DevOps Engineer</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -30,8 +31,9 @@
             font-size: 2.5em;
         }
         h2 {
-            color: #007BFF;
+            color: #ffffff;
             margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         }
         nav {
             margin: 20px 0;
@@ -41,9 +43,15 @@
             color: #fff;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #007BFF;
+            text-decoration: underline;
         }
         section {
-            background: white;
+            background: #2F4F4F; /* Slate gray */
+            color: white; /* Change text color to white for contrast */
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -68,7 +76,7 @@
             color: #777;
         }
         .profile-img {
-            width: 150px;
+            width: 180px; /* Increased size */
             border-radius: 50%;
             margin-top: 20px;
         }
@@ -91,6 +99,15 @@
         }
         .btn:hover {
             background: #0056b3;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            .profile-img {
+                width: 150px; /* Adjust for smaller screens */
+            }
         }
     </style>
 </head>
@@ -143,11 +160,11 @@
 <section id="services">
     <h2>Services</h2>
     <ul>
-        <li>DevOps Engineering</li>
-        <li>2X AWS Certified</li>
-        <li>Certified Solutions Architect</li>
-        <li>Python Development</li>
-        <li>Linux Administration</li>
+        <li><i class="fas fa-cogs"></i> DevOps Engineering</li>
+        <li><i class="fas fa-cloud"></i> 2X AWS Certified</li>
+        <li><i class="fas fa-certificate"></i> Certified Solutions Architect</li>
+        <li><i class="fas fa-code"></i> Python Development</li>
+        <li><i class="fas fa-linux"></i> Linux Administration</li>
     </ul>
 </section>
 
@@ -161,7 +178,7 @@
 </section>
 
 <div class="graphic">
-    <img src="https://raw.githubusercontent.com/jacobwilliams-it/website/refs/heads/main/devops.jpeg" alt="DevOps Graphic">
+    <img src="https://raw.githubusercontent.com/jacobwilliams-it/website/main/devops.jpeg" alt="DevOps Graphic">
 </div>
 
 <footer>
